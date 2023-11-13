@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .judul{
+         text-align: center;
+        }
+        
+        .judul img{
+            width: 100px;
+            border-radius: 100px;
+        }
+        .login-box {
+            width: 300px;
+            height:270px;
+            padding: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+        .login-box input[type="text"] {
+            width: 80%;
+            height: 20px;
+            margin-top: 80px;
+            padding: 5px;  
+            text-align: center;
+            border-radius: 5px ;
+            border: none;
+        }
+        .login-box input[type="password"]{
+            width: 80%;
+            height: 20px;
+            margin-top:30px;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+        }
+       button {
+        width: 110px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+       border: none;
+       background-color: white;
+       border-radius: 5px;
+
+
+}
+ 
+        
+    </style>
+</head>
+<body>
+    <div class="judul"> 
+        <img src="bakso.jpg" alt="">
+        <h3>
+           
+            Selamat datang di car wash
+            <br>
+            SMKN 2 BANJARMASIN
+        </h3>
+    <div class="login-box">
+        <form action="proses_login.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <div class="button"> 
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+           
+        </form>
+    </div>
+</div>
+</body>
+</html>

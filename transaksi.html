@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transaksi.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul class="nav-menu float-left">
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                
+            </ul>
+            <ul class="nav-menu "> 
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+          
+        </div>
+    </div>
+    
+
+    <main class="main">
+        <div class="main__body">
+            <div>
+                <label for="transactionNumber">No Transaksi</label>
+                <input type="text" class="transactionNumber">
+            </div>
+            
+            <div>
+                <label for="transactionDate">Tanggal Transaksi</label>
+                <input type="date" class="transactionDate">
+            </div>
+            <div>
+                <label for="customerName">Nama Customer</label>
+                <input type="text" class="customerName">
+            </div>
+            <div>
+                <label for="selectedPackage">Pilihan Paket</label>
+                <input type="text" class="selectedPackage">
+            </div>
+            <div>
+                <label for="packagePrice">Harga Paket</label>
+                <input type="text" class="packagePrice">
+            </div>
+            <div class="float-right">
+                <label><input type="radio" name="additionalPackage">Tidak ada Tambahan - Rp.0</label>
+                <label><input type="radio" name="additionalPackage">Wax - Rp 10.000</label>
+                <label><input type="radio" name="additionalPackage">Fogging - Rp. 20.000</label>
+            </div>
+            <div>
+                <button class="button-1">Hitung Total Harga</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="main__out">
+        <div>
+            <label for="totalPrice">Total Harga</label>
+            <input type="text" class="totalPrice">
+        </div>
+        <div>
+            <label for="Payment">Pembayaran</label>
+            <input type="text" class="Payment">
+            <div class="btn">
+                <button class="button-2">Hitung Kembalian</button>
+                <button class="button-3" onclick="openPopup()">Simpan Transaksi</button>
+            </div>
+            <div class="popup" id="popup">
+                <p>Transaksi Berhasil <br> Kembali Ke Home</p>
+                <button type="button" onclick="closePopup()">Ok</button>
+            </div>
+        </div>
+        <div class="out__float-right">
+            <label for="transactionChange">Kembalian</label>
+            <input type="text" class="return">
+        </div>
+    </div>
+        
+    <footer class="footer">
+        <p>@copyright Muhammad rivaldy</p>
+    </footer>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

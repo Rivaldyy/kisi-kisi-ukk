@@ -1,0 +1,184 @@
+* {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f1f1;
+}
+
+.navbar {
+    max-width: 100%;
+    height: 40px;
+    background-color: #c4c4c4;
+    padding: 10px 0;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav-menu.float-left {
+    margin-left: 40px;
+    /* Menggeser menu ke arah kanan */
+}
+
+.nav-menu li:last-child {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #122620;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 96%;
+    height: 50vh;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.daftar {
+    padding: 25px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.card1 {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 2%;
+    width: 13%;
+    height: 40%;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.card2 {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 27%;
+    width: 13%;
+    height: 40%;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.card3 {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 52%;
+    width: 13%;
+    height: 40%;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.card4 {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 77%;
+    width: 13%;
+    height: 40%;
+    padding: 50px;
+    background-color: #fff;
+}
+.card1 img{
+    width: 150px;
+}
+.card2 img{
+    width: 160px;
+    height: 200px;
+}
+.card3 img{
+    width: 160px;
+    height: 200px;
+}
+.card4 img {
+    width: 160px;
+    height: 200px;
+}
+
+.btn1 {
+    position: absolute;
+    background-color: #64697a;
+    margin-top: 30%;
+    margin-left: 28px;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-style: normal;
+}
+
+.btn2 {
+    position: absolute;
+    background-color: #64697a;
+    margin-top: 30%;
+    margin-left: 27%;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-style: normal;
+}
+
+.btn3 {
+    position: absolute;
+    background-color: #64697a;
+    margin-top: 30%;
+    margin-left: 52%;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-style: normal;
+}
+
+.btn4 {
+    position: absolute;
+    background-color: #64697a;
+    margin-top: 30%;
+    margin-left: 77%;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-style: normal;
+}
+
+footer {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 2%;
+    width: 92%;
+    text-align: center;
+    background-color: #c4c4c4;
+    padding: 25px;
+    border-radius: 10px;
+}
